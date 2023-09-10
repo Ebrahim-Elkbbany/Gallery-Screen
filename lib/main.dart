@@ -10,17 +10,16 @@ class GalleryApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
-
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.light().copyWith(
-        appBarTheme: const AppBarTheme(
-          centerTitle: true,
-          backgroundColor: Colors.white,
-          elevation: 0,
-        ),
-        scaffoldBackgroundColor: Colors.white
-      ),
-      home: GalleryView(),
+          appBarTheme: const AppBarTheme(
+            centerTitle: true,
+            backgroundColor: Colors.white,
+            elevation: 0,
+          ),
+          scaffoldBackgroundColor: Colors.white),
+      home: const GalleryView(),
     );
   }
 }

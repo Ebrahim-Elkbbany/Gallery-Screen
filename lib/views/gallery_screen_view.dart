@@ -11,7 +11,7 @@ class GalleryView extends StatelessWidget {
         title: const Text(
           'Gallery',
           style: TextStyle(
-            color: Colors.black38,
+            color: Colors.black45,
             fontSize: 25,
           ),
         ),
